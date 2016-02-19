@@ -1,0 +1,84 @@
+/* M A I N  S T R U C T U R E */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,800);
+body {
+	font-family: 'Open Sans',sans-serif;
+	font-size: 1.2em;
+	color: #323232;
+	width: 100%;
+}
+/* N A V - B A R */
+.navbar {
+	background: #48d991;
+	margin-bottom: 0;
+	padding-bottom: 2em;
+	border: none;
+	height: 15em;
+	-webkit-transition: all 1s;
+    transition: all 1s; 
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 3.5em;
+    height: 0.25em;
+    border-radius: 0.015em;
+    margin-bottom: 0.7em;
+}
+.icon-bar {
+	background: #fff;
+}
+.test-img {
+	height: 8em;
+	padding-left: 3em;
+	-webkit-transition: all 1s;
+    transition: all 1s; 
+}
+.navbar ul {
+	padding: 2em;
+	padding-top: 7em;
+}
+.navbar ul li a {
+	font-family: 'Open Sans',sans-serif;
+	font-weight: 300;
+	font-size: 1.8em;
+	letter-spacing: 0.3em;
+	color: #fff;
+}
+/* scroll - change */
+.shrink {
+	background: #fff;
+	margin-bottom: 0;
+	padding-bottom: 2em;
+	border: none;
+	height: 8em;
+}
+.shrink .test-img {
+	height: 4em;
+}
+.shrink ul {
+	padding: 3.5em 2em 0 0;
+}
+.shrink ul li a {
+	font-size: 1em;
+	color: #999;
+}
+.shrink .icon-bar {
+	background: #323232;
+}
+/* Sections */
+.section-info1 {
+	background: #48d991;
+	height: 100vh;
+}
+.section-info2 {
+	background: #fff;
+	height: 100vh;
+}
+.section-info3 {
+	background: #f7f7f7;
+	height: 100vh;
+}
+
+
+
+
+
